@@ -12,7 +12,7 @@
   "dependencies": {
     "JSV": "^4.0.2",
     "lodash": "~2.3.0",
-    "sequelize": "^2.0.0-rc6",
+    "sequelize": "^3.20.0",
     "swagger-schema-official": "^2.0.0-a33091a",
     "yamljs": "^0.2.1"
   },
