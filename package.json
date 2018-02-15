@@ -11,8 +11,8 @@
   "main": "./index",
   "dependencies": {
     "JSV": "^4.0.2",
-    "lodash": "~2.3.0",
-    "sequelize": "^3.20.0",
+    "lodash": "~4.17.5",
+    "sequelize": "^4.0.0",
     "swagger-schema-official": "^2.0.0-a33091a",
     "yamljs": "^0.2.1"
   },
