@@ -14,7 +14,8 @@
     "lodash": "~4.17.5",
     "sequelize": "^4.0.0",
     "swagger-schema-official": "^2.0.0-a33091a",
-    "yamljs": "^0.2.1"
+    "yamljs": "^0.2.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
@@ -29,7 +30,9 @@
     "url": "https://github.com/mathisonian/swaggerize/issues"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "sequelize",
@@ -40,5 +43,6 @@
     "api",
     "documentation"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
